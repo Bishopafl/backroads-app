@@ -1,9 +1,6 @@
-import tour1 from './images/tour-1.jpeg';
-import tour2 from './images/tour-2.jpeg';
-import tour3 from './images/tour-3.jpeg';
-import tour4 from './images/tour-4.jpeg';
-import tour5 from './images/tour-5.jpeg';
-import tour6 from './images/tour-6.jpeg';
+import cigarImg1 from './images/backroads_premium-classic-cigar.png';
+import cigarImg2 from './images/backroads_premium-dark-maduro-cigar.png';
+import cigarImg3 from './images/backroads_premium-torpedo-cigar.png';
 
 export const copyright = 'Adam F Lopez — adamf04@gmail.com'; 
 export const date = new Date().getFullYear();
@@ -12,7 +9,7 @@ export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
   { id: 3, href: '#services', text: 'services' },
-  { id: 4, href: '#tours', text: 'tours' },
+  { id: 4, href: '#products', text: 'products' },
 ];
 
 export const socialLinks = [
@@ -22,70 +19,44 @@ export const socialLinks = [
 ];
 
 export const services = [
-  { id: 1, icon: 'fas fa-wallet fa-fw', title: 'saving money', text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.' },
-  { id: 2, icon: 'fas fa-tree fa-fw', title: 'endless hiking', text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.' },
-  { id: 3, icon: 'fas fa-socks fa-fw', title: 'amazing comfort', text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.' },
+  { id: 1, icon: 'fas fa-wallet fa-fw', title: 'Seamless Online Ordering', text: 'Shop your favorite cigars anytime with our secure, user-friendly online store—fast checkout and nationwide shipping available.' },
+  { id: 2, icon: 'fas fa-box fa-fw', title: 'Cigar Gift Bundles', text: 'Give the gift of luxury with our thoughtfully curated cigar bundles—ideal for birthdays, holidays, or client appreciation.' },
+  { id: 3, icon: 'fas fa-car fa-fw', title: 'Subscription Cigar Boxes', text: 'Get top-shelf cigars delivered monthly with our customizable subscription boxes—new blends, exclusive picks, and unbeatable value straight to your door.' },
 ];
 
-export const tours = [
+export const heroTitle = 'Finest Galaxy Cigars';
+export const heroSubtitle = 'Handcrafted, premium cigars sourced from the finest tobacco regions. Elevate your smoking experience today.';
+export const heroBtnText = 'explore products';
+
+export const productData = [
     { 
         id: 1, 
-        image: tour1,
-        title: 'best of java', 
+        image: cigarImg1,
+        title: 'dark maduro cigar', 
         date: 'october 1th, 2020', 
-        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
-        location: 'indonesia',
-        duration: 11,
-        cost: 1400,
+        info: 'A high-quality, realistic image of a dark maduro cigar. The cigar has a deep, rich brown wrapper with a slightly oily texture and visible veins.',
+        location: 'camacho',
+        stock: 11,
+        cost: 1200,
     },
     { 
         id: 2, 
-        image: tour2,
-        title: 'Tibet Adventure', 
+        image: cigarImg2,
+        title: 'premium torpedo cigar', 
         date: 'august 26th, 2020', 
-        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
-        location: 'china',
-        duration: 6,
-        cost: 2100,
+        info: 'A high-quality, realistic image of a premium torpedo cigar. The cigar has a medium-brown, slightly oily wrapper with fine veins.',
+        location: 'enclave',
+        stock: 6,
+        cost: 1100,
     },
     { 
         id: 3, 
-        image: tour3,
-        title: 'explore hong kong', 
+        image: cigarImg3,
+        title: 'premium classico cigar', 
         date: 'september 15th, 2020', 
-        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
-        location: 'hong kong',
-        duration: 8,
-        cost: 5000,
+        info: 'A high-quality, realistic image of a premium cigar. The cigar has a rich brown wrapper with a slightly oily sheen, detailed texture, and visible veins.',
+        location: 'cuba',
+        stock: 8,
+        cost: 2000,
     },
-    { 
-        id: 4, 
-        image: tour4,
-        title: 'kenya highlights', 
-        date: 'december 5th, 2019', 
-        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
-        location: 'kenya',
-        duration: 20,
-        cost: 5000,
-    },
-    { 
-        id: 5,
-        image: tour5,
-        title: 'United States Adventure', 
-        date: 'June 4th, 2024', 
-        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
-        location: 'united states',
-        duration: 4,
-        cost: 1700,
-    },
-    { 
-        id: 6, 
-        image: tour6,
-        title: 'Featured Beaches', 
-        date: 'july 26th, 2020', 
-        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
-        location: 'florida',
-        duration: 3,
-        cost: 700,
-    },
-]
+];

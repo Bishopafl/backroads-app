@@ -1,14 +1,18 @@
-import Title from "./Title";
-import { tours } from "../data.js";
+import Title from "./Title.js";
+import { productData } from "../data.js";
 
-const Tours = () => {
+const Products = () => {
+
+  function formatCentsToDollars(value) {
+    return (value / 100).toFixed(2);
+  }
   return (
-    <section className="section" id="tours">
-      <Title title="featured" subTitle="tours" />
+    <section className="section" id="products">
+      <Title title="featured" subTitle="products" />
 
       <div className="section-center featured-center">
-        {tours.map((tour) => {
-          const { id, image, date, title, info, location, duration, cost } = tour;
+        {productData.map((product) => {
+          const { id, image, date, title, info, location, stock, cost } = product;
 
           return (
             <article className="tour-card" key={id}>
@@ -28,8 +32,8 @@ const Tours = () => {
                     </span>{" "}
                     {location}
                   </p>
-                  <p>{duration} days</p>
-                  <p>from ${cost}</p>
+                  <p>{stock} Stock Quantity</p>
+                  <p>${formatCentsToDollars(cost)}</p>
                 </div>
               </div>
             </article>
@@ -40,4 +44,4 @@ const Tours = () => {
   );
 };
 
-export default Tours;
+export default Products;

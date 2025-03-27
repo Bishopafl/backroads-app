@@ -15,18 +15,19 @@ const About = () => {
                 />
             </div>
             <article className='about-info'>
-                <h3>explore the difference</h3>
+                <h3>More than just tobacco</h3>
                 <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-                quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-                unde dolor?
+                    We source only the finest hand-rolled cigars from legendary regions such as Cuba, Nicaragua, and the Dominican Republic. Each cigar is crafted with precision, aged to perfection, and designed for the ultimate smoking experience.
                 </p>
                 <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-                quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-                unde dolor?
+                    Our Selection Includes:
+                    <ul>
+                        <li><i className='fa fa-check'></i> Hand-Rolled Perfection</li>
+                        <li><i className='fa fa-check'></i> Premium Tobacco Blends</li>
+                        <li><i className='fa fa-check'></i> Limited & Exclusive Editions</li>
+                    </ul>
                 </p>
-                <a href='#' className='btn'>read more</a>
+                <a href='#tours' className='btn'>read more</a>
             </article>
             </div>
         </section>
