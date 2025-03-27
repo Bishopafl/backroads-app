@@ -5,6 +5,9 @@ import tour4 from './images/tour-4.jpeg';
 import tour5 from './images/tour-5.jpeg';
 import tour6 from './images/tour-6.jpeg';
 
+export const copyright = 'Adam F Lopez — adamf04@gmail.com'; 
+export const date = new Date().getFullYear();
+
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
