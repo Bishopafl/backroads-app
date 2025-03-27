@@ -19,9 +19,9 @@ export const socialLinks = [
 ];
 
 export const services = [
-  { id: 1, icon: 'fas fa-wallet fa-fw', title: 'saving money', text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.' },
-  { id: 2, icon: 'fas fa-tree fa-fw', title: 'endless hiking', text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.' },
-  { id: 3, icon: 'fas fa-socks fa-fw', title: 'amazing comfort', text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.' },
+  { id: 1, icon: 'fas fa-wallet fa-fw', title: 'Seamless Online Ordering', text: 'Shop your favorite cigars anytime with our secure, user-friendly online store—fast checkout and nationwide shipping available.' },
+  { id: 2, icon: 'fas fa-box fa-fw', title: 'Cigar Gift Bundles', text: 'Give the gift of luxury with our thoughtfully curated cigar bundles—ideal for birthdays, holidays, or client appreciation.' },
+  { id: 3, icon: 'fas fa-car fa-fw', title: 'Subscription Cigar Boxes', text: 'Get top-shelf cigars delivered monthly with our customizable subscription boxes—new blends, exclusive picks, and unbeatable value straight to your door.' },
 ];
 
 export const heroTitle = 'Finest Galaxy Cigars';
